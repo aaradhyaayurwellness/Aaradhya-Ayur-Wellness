@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the full catalog of Aaradhya Ayur Wellness health products, including wellness juices, capsules, daily essential drops, personal care and agri bio-stimulants.">
+  <meta name="keywords" content="Ayurvedic products, Noni Drops, Moringa Drops, Diaveda, Amrit Juice, Kesh Shampoo, Aaradhya Wellness Products">
+  <title>Our Products | Aaradhya Ayur Wellness</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+  
+  <!-- FontAwesome & CSS Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/919307568748" class="whatsapp-floating" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+    <div class="ripple"></div>
+  </a>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-area" aria-label="Aaradhya Ayur Wellness Home">
+        <img src="images/logo.jpg" alt="Aaradhya Ayur Wellness Logo" class="logo-img">
+        <div class="logo-text">
+          <span class="brand-name">Aaradhya</span>
+          <span class="brand-tagline">Ayur Wellness</span>
+        </div>
+      </a>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">&#9776;</button>
+      
+      <nav class="main-nav" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="products.html" class="nav-link active">Our Product</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn nav-cta">Get Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inner Hero Section -->
+  <section class="inner-hero">
+    <div class="container">
+      <p class="reveal">Efficacy & Natural Vitality</p>
+      <h1 class="reveal">Our Premium Products</h1>
+    </div>
+  </section>
+
+  <!-- Products Catalog Main Section -->
+  <section id="products-catalog">
+    <div class="container">
+      
+      <!-- Interactive Filter Controls -->
+      <div class="product-controls reveal">
+        <!-- Search bar -->
+        <div class="search-box">
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+          <input type="text" id="product-search" class="search-input" placeholder="Search products by name or benefit...">
+        </div>
+        
+        <!-- Category Tab Buttons -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-category="all">All Products</button>
+          <button class="filter-tab" data-category="wellness">Capsules & Juices</button>
+          <button class="filter-tab" data-category="drops">Essential Drops</button>
+          <button class="filter-tab" data-category="personal-care">Personal Care</button>
+          <button class="filter-tab" data-category="agri">Agriculture</button>
+        </div>
+      </div>
+      
+      <!-- Dynamic Products Grid -->
+      <div class="grid grid-4" id="products-grid">
+        <!-- Instantiated Dynamically via main.js -->
+        <div style="grid-column: 1/-1; text-align: center; padding: 5rem 0;">
+          <p style="font-size: 1.1rem; color: var(--text-muted);"><i class="fa fa-spinner fa-spin fa-fw"></i> Loading product database...</p>
+        </div>
+      </div>
+      
+      <!-- General Inquiry CTA -->
+      <div class="card reveal" style="margin-top: 5rem; background: linear-gradient(135deg, rgba(117, 151, 51, 0.1), rgba(202, 194, 77, 0.1)); border-color: var(--sage); padding: 3rem; text-align: center;">
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.75rem;">Can't find a specific wellness product?</h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem auto; font-size: 1rem;">We supply full product distributions across India. Inquire with our support team to place bulk orders or request customized product formulations.</p>
+        <a href="https://wa.me/919307568748?text=Hello%20Aaradhya%20Ayur%20Wellness!%20I%20have%20a%20bulk%20product%20inquiry." target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: #25d366; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2);">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i> Direct Support Inquiry
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.jpg" alt="Aaradhya Ayur Wellness Logo" class="logo-img">
+          <div class="logo-text">
+            <span class="brand-name" style="color: #ffffff;">Aaradhya</span>
+            <span class="brand-tagline" style="color: var(--accent);">Ayur Wellness</span>
+          </div>
+        </a>
+        <p>Aaradhya Ayur Wellness integrates scientific knowledge, food safety excellence, and traditional Ayurvedic principles for healthier lives and sustainable well-being.</p>
+
+      </div>
+      
+      <div class="footer-links">
+        <h4>Useful Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Founder</a></li>
+          <li><a href="products.html">Our Product</a></li>
+          <li><a href="blog.html">Blog & News</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <div class="footer-contact-details">
+          <div class="footer-contact-item">
+            <i class="fa fa-map-marker footer-contact-icon" aria-hidden="true"></i>
+            <span>Tambhere, Tal. Rahuri, Dist. Ahmednagar, Maharashtra, India</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-phone footer-contact-icon" aria-hidden="true"></i>
+            <a href="tel:+919307568748">+91 9307568748</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-envelope footer-contact-icon" aria-hidden="true"></i>
+            <a href="mailto:aaradhyaayurwellness@gmail.com">aaradhyaayurwellness@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Aaradhya Ayur Wellness. All Rights Reserved.</p>
+      <div>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
