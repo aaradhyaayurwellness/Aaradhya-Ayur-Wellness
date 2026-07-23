@@ -446,4 +446,16 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  // Single Video Playback Management (Pauses other videos when one starts playing)
+  const allVideos = document.querySelectorAll('video');
+  allVideos.forEach(video => {
+    video.addEventListener('play', () => {
+      allVideos.forEach(otherVideo => {
+        if (otherVideo !== video) {
+          otherVideo.pause();
+        }
+      });
+    });
+  });
 });
