@@ -1968,7 +1968,7 @@ textarea.form-control {
 .video-player-wrapper video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Set to contain to prevent blurry scaling/cropping and preserve original resolution */
   display: block;
 }
 .video-card-content {
@@ -2004,38 +2004,6 @@ textarea.form-control {
 }
 .video-client-info i {
   color: var(--secondary);
-}
-
-/* Unique Homepage Testimonials Section Style (Dark Showcase) */
-.testimonials-section.homepage-special {
-  background: linear-gradient(135deg, #162c0b 0%, #0a1705 100%);
-  color: #ffffff;
-}
-.testimonials-section.homepage-special .section-title h2 {
-  color: #ffffff;
-}
-.testimonials-section.homepage-special .section-title p {
-  color: var(--sage);
-}
-.testimonials-section.homepage-special .video-card {
-  background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-}
-.testimonials-section.homepage-special .video-card:hover {
-  box-shadow: 0 12px 40px rgba(202, 194, 77, 0.15);
-  background-color: rgba(255, 255, 255, 0.05);
-}
-.testimonials-section.homepage-special .video-card h3 {
-  color: #ffffff;
-}
-.testimonials-section.homepage-special .video-category-tag {
-  color: var(--accent);
-}
-.testimonials-section.homepage-special .video-client-info {
-  color: rgba(255, 255, 255, 0.6);
-}
-.testimonials-section.homepage-special .video-client-info i {
-  color: var(--accent);
 }
 
 @media (max-width: 768px) {
